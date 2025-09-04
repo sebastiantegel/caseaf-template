@@ -5,17 +5,17 @@ I detta dokument ges två förslag på användningsfall som vi tror är lämplig
 
 Läs först igenom kom-igång hjälpen 
 
--  [Övergripande dokumentation API:etJobSearch](https://jobtechdev.se/sv/components/jobsearch)
--  [Kom-igång guide](https://gitlab.com/arbetsformedlingen/education/education-api/-/blob/main/GETTING_STARTED.md)
+-  [Övergripande dokumentation API:etJobSearch](https://data.arbetsformedlingen.se/data/platsannonser/)
+-  [Kom-igång guide](https://gitlab.com/arbetsformedlingen/job-ads/jobsearch/jobsearch-api/-/blob/main/docs/GettingStartedJobSearchSE.md)
 
 ## Prova att utforska datan med vår interaktiva tjänst 
 
-Görs genom att öppna Swagger-sidan för API:et (för att enkelt testa olika endpoints i API:et och läsa dokumentation för respektive endpoint): Search job ads (jobtechdev.se) 
+Görs genom att öppna Swagger-sidan för API:et (för att enkelt testa olika endpoints i API:et och läsa dokumentation för respektive endpoint): [Search job ads (jobtechdev.se)](https://jobsearch.api.jobtechdev.se/)
 
 ## Uppgift 
 
-Använd endpoint https://jobsearch.api.jobtechdev.se/ för att använda/söka bland befintliga annonser. 
-Det går även bra att använda historiska annonser om ni vill jämföra aktuella annonser med hur det har sett ut tidigare. Detta api finns här: Historical job ads (jobtechdev.se)
+Använd endpoint **/search** för att söka bland befintliga annonser. 
+Det går även bra att använda historiska annonser om ni vill jämföra aktuella annonser med hur det har sett ut tidigare. Detta api finns här: [Historical job ads (jobtechdev.se)](https://historical.api.jobtechdev.se/)
 
 Om möjligt, använd en grafisk presentation av era resultat genom t.ex. stapeldiagram eller linjegrafer.
 
@@ -35,3 +35,4 @@ Er slutprodukt ska ej innehålla Arbetsförmedlingens logga eller färger. Anpas
 - Styled components (som drar nytta av designsystemet) 
 - Grafisk presentation av datat 
 - Användning av custom hook där det finns möjlighet
+- Använd endpoint /complete för att lägga till autocomplete-funktion och få förslag på begrepp vid fritextsökning
